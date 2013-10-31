@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IeDotNetUg", "IeDotNetUg\IeDotNetUg.csproj", "{A5FB7906-0852-47AC-AD76-C3AED76F4A43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IeDotNetUg.Data", "IeDotNetUg.data\IeDotNetUg.Data.csproj", "{DD324D80-2A1E-4B5C-8AB0-E5DA43350FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IeDotNetUg.Data.Init", "IeDotNetUg.Data.Init\IeDotNetUg.Data.Init.csproj", "{45D0CA97-027E-437C-81A3-185B90B7956A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{DD324D80-2A1E-4B5C-8AB0-E5DA43350FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD324D80-2A1E-4B5C-8AB0-E5DA43350FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD324D80-2A1E-4B5C-8AB0-E5DA43350FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D0CA97-027E-437C-81A3-185B90B7956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D0CA97-027E-437C-81A3-185B90B7956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D0CA97-027E-437C-81A3-185B90B7956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D0CA97-027E-437C-81A3-185B90B7956A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
