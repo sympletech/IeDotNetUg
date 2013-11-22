@@ -22,16 +22,5 @@ namespace IeDotNetUg.Data.Init.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=RONIN\\SQLSERVER;Initial Catalog=CodedHomesDEMO;Integrated Security=Tr" +
-            "ue")]
-        public string DBContext {
-            get {
-                return ((string)(this["DBContext"]));
-            }
-        }
     }
 }

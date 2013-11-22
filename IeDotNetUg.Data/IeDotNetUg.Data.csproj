@@ -35,6 +35,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Xml.Linq" />
@@ -44,8 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBContext.cs" />
-    <Compile Include="DbInit.cs" />
+    <Compile Include="Configuration\CustomDatabaseInitializer.cs" />
+    <Compile Include="DataContext.cs" />
+    <Compile Include="Configuration\EventDetailConfiguration.cs" />
     <Compile Include="Models\EventDetail.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Speaker.cs" />

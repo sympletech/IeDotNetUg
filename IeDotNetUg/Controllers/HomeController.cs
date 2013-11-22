@@ -1,6 +1,5 @@
 ﻿using System.Data.Entity;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using IeDotNetUg.Data;
 using IeDotNetUg.Models;
 using System;
@@ -10,12 +9,15 @@ namespace IeDotNetUg.Controllers
 {
     public class HomeController : Controller
     {
-        DBContext db = new DBContext();
+        DataContext db = new DataContext();
         //
         // GET: /Home/
 
         public ActionResult Index()
         {
+
+            // We should probably delete the Models directory and all its classes from the IeDotNetUg web project
+            // this way we only have to maintain the models in the IeDotNetUg.Data project
 
             var DBModel = db.EventDetails
                 .Include(x=>x.Location)
@@ -71,8 +73,13 @@ namespace IeDotNetUg.Controllers
             //    };
 
 
+            //return View(DBModel);
 
-            return View(DBModel);
+            // a lot cleaner
+            var eventDetails = db.EventDetails.FirstOrDefault(x => x.EventDate > DateTime.Now);
+
+            return View(eventDetails);
+
         }
 
     }

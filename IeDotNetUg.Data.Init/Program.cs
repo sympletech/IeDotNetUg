@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IeDotNetUg.Data.Init
 {
@@ -11,17 +6,17 @@ namespace IeDotNetUg.Data.Init
     {
         static void Main(string[] args)
         {
-            DBContext db = new DBContext();
-            System.Data.Entity.Database.SetInitializer<DBContext>(new DbInit());
 
-            try
-            {
-                Console.Write(db.EventDetails.Count());
-            }
-            catch (Exception ex)
-            {
-                Console.Write(ex.Message);
-            }
+            Console.WriteLine("Starting to Initialize the Database");
+
+            DataContext db = new DataContext();
+
+            db.Database.Initialize(true);
+
+            Console.WriteLine("Complete...");
+
+            Console.ReadKey();
+
         }
     }
 }
