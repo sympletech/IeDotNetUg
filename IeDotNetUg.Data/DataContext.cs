@@ -17,6 +17,7 @@ namespace IeDotNetUg.Data
         public DbSet<EventDetail> EventDetails { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Speaker> Speakers { get; set; }
+        public DbSet<EventType> EventTypes { get; set; }
 
         public static string ConnectionStringName
         {

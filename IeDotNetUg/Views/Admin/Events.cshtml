@@ -1,0 +1,49 @@
+﻿@model IeDotNetUg.Models.Admin.EventsViewModel
+
+@{
+    ViewBag.Title = "Admin Event";
+    //Layout = "_Layout";
+}
+
+<h2>Admin Event</h2>
+
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Title</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.Title, new { @class = "form-control", placeholder = "Title" })
+        </div>
+
+        <label class="col-sm-2 control-label">Speaker</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(x => x.SpeakerId, Model.SpeakerChoices, new { @class = "form-control" })
+        </div>
+
+        <label class="col-sm-2 control-label">Event Date</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.EventDate, new { @class = "form-control", placeholder = "Event Date" })
+        </div>
+
+        <label class="col-sm-2 control-label">Time</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(x => x.Time, new { @class = "form-control", placeholder = "Event Time" })
+        </div>
+
+        <label class="col-sm-2 control-label">Description</label>
+        <div class="col-sm-10">
+            @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+        </div>
+
+        <label class="col-sm-2 control-label">Event Type</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(x => x.EventTypeId, Model.EventTypeChoices, new { @class = "form-control" })
+        </div>
+
+        <label class="col-sm-2 control-label">Location</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(x => x.LocationId, Model.LocationChoices, new { @class = "form-control" })
+        </div>
+
+    </div>
+</form>
+

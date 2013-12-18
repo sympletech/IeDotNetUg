@@ -11,6 +11,7 @@ namespace IeDotNetUg.Data.Models
         public string Description { get; set; }
         public Location Location { get; set; }
         public Speaker Speaker { get; set; }
+        public EventType EventType { get; set; }
 
     }
 }

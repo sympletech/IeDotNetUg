@@ -49,6 +49,7 @@
     <Compile Include="DataContext.cs" />
     <Compile Include="Configuration\EventDetailConfiguration.cs" />
     <Compile Include="Models\EventDetail.cs" />
+    <Compile Include="Models\EventType.cs" />
     <Compile Include="Models\Location.cs" />
     <Compile Include="Models\Speaker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

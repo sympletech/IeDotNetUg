@@ -1,0 +1,10 @@
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\IeDotNetUg.Data.Init.exe.config
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\IeDotNetUg.Data.Init.exe
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\IeDotNetUg.Data.Init.pdb
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\EntityFramework.dll
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\IeDotNetUg.Data.dll
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\IeDotNetUg.Data.pdb
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\bin\Debug\EntityFramework.xml
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\obj\Debug\IeDotNetUg.Data.Init.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\obj\Debug\IeDotNetUg.Data.Init.exe
+C:\Users\Jason\Documents\Source\Repos\IeDotNetUg\IeDotNetUg.Data.Init\obj\Debug\IeDotNetUg.Data.Init.pdb
